@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\newcommand{\CommaPunct}{\mathpunct{\raisebox{0.5ex}{,}}}
+\begin{document}
+\title{ECE108 Assignment3} \author{Yi Fan Yu yf3yu@edu.uwaterloo.ca} \date{\today}
+
+\maketitle
+
+\pagenumbering{arabic}
+\tableofcontents
+\newpage
+\renewcommand\thesubsection{\alph{subsection}}
+\section{Rolling Dice}
+\subsection{Dicerolling1,2,3,4,5,6}
+How many times will the sequence 1,2,3,4,5,6 occur?  What is the
+probability of this occurring?\\
+well if $N \leq 6$, there is 0 chance of any sequence occuring\\
+if $N = 6$, there is 1 occurence which means $\frac{1}{6^{6}}$ chance\\
+if $N \geq 6$,there are 
+  \[(N-5)*6^{N-5}\text{occurences}\]
+  which leads to a probability of occurence to
+  \[\frac{(N-5)*6^{N-5}}{6^{N}}\]
+
+How many times will the sum of the number of 1's and 2's equal the
+sum of the number of 3's, 4's, 5's and 6's?  What is the probability
+of this occurring?
+
+How many times will the sum of the number of 1's and 2's equal the
+sum of the number of 3's and 4's and equal the sum of the number of
+5's and 6's?  What is the probability of this occurring?
+
+How many times will you roll a 1 twice in succession?  For the
+purpose of this calculation, the sequence ...11.... counts as once,
+but so does ...111....  The sequence ...1111... counts as twice.  What
+is the probability of this occurring?
+
+How many times will you roll a 1 $k$-times in succession?  As with
+the previous case, when a 1 is counted as part of a $k$-sequence, it
+is not counted as part of a subsequent $k$-sequence.  What
+is the probability of this occurring?
+
+You have a communications system that transmits bundles of data
+from a source to a destination.  Most bundles are received correctly.
+However, there is a random chance of the data in a bundle being in
+error.  Roughly every $E^{th}$ bundle is in error.  If you transmit
+$n$ bundles, what is the probability of two bundles in sequence being
+in error?  what is the probability of $k$ bundles in sequence being in
+error?
+
+sense of whether or not your answers look correct.
+\end{document}
