@@ -14,17 +14,29 @@
 \subsection{Dicerolling1,2,3,4,5,6}
 How many times will the sequence 1,2,3,4,5,6 occur?  What is the
 probability of this occurring?\\
-well if $N \leq 6$, there is 0 chance of any sequence occuring\\
-if $N = 6$, there is 1 occurence which means $\frac{1}{6^{6}}$ chance\\
-if $N \geq 6$,there are 
-  \[(N-5)*6^{N-5}\text{occurences}\]
+\bigskip\\
+well if $n \leq 6$, there is 0 chance of any sequence occuring\\
+if $n = 6$, there is 1 occurence which means $\frac{1}{6^{6}}$ chance\\
+if $n \geq 6$,there are 
+  \[(n-5)*6^{n-5}\text{occurences}\]
   which leads to a probability of occurence to
-  \[\frac{(N-5)*6^{N-5}}{6^{N}}\]
+  \[\frac{(n-5)*6^{n-5}}{6^{n}}\]
 
+\subsection{DicerollingA,B,C}
 How many times will the sum of the number of 1's and 2's equal the
 sum of the number of 3's, 4's, 5's and 6's?  What is the probability
 of this occurring?
-
+let's say\\
+\[ 1 \& 2 \mapsto A\]
+\[ 3 \& 4 \mapsto B\]
+\[ 5 \& 6 \mapsto C\]
+$A \& B \& C$ with all equal possibilities of showing up (1/3)\\
+Then we can say we are only throwing a 3 sided dice, therefore the total amount of possibilities while throwing is\\
+\[3^n\]
+using the analogy of undistinguishable $A$s and $ B\& C$s
+our equation for $ \|A\|= \|B\|+\|C\|$
+is \\
+  \[ \frac{n!}{\frac{n}{3}! + \frac{2n}{3}!}\]
 How many times will the sum of the number of 1's and 2's equal the
 sum of the number of 3's and 4's and equal the sum of the number of
 5's and 6's?  What is the probability of this occurring?
