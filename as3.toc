@@ -8,19 +8,19 @@
 \contentsline {section}{\numberline {2}Binomial Theorem}{5}
 \contentsline {subsection}{\numberline {a}Base Case}{5}
 \contentsline {subsection}{\numberline {b}N+1 Case}{5}
-\contentsline {section}{\numberline {3}Graph Questions}{5}
-\contentsline {subsection}{\numberline {a}a graph with 5 vertices and 3 edges}{5}
+\contentsline {section}{\numberline {3}Graph Questions}{6}
+\contentsline {subsection}{\numberline {a}a graph with 5 vertices and 3 edges}{6}
 \contentsline {subsection}{\numberline {b}a graph with 5 odd-degree vertices with 3 edges}{6}
 \contentsline {subsection}{\numberline {c}a connected graph with 5 vertices and 3 edges?}{6}
-\contentsline {subsection}{\numberline {d}a directed graph with 5 vertices and 3 edges?}{6}
+\contentsline {subsection}{\numberline {d}a directed graph with 5 vertices and 3 edges?}{7}
 \contentsline {subsection}{\numberline {e}a disconnected graph (a graph that is not connected) with 5 ices and 7 edges}{7}
 \contentsline {subsection}{\numberline {f}a disconnected, directed graph with 5 vertices and 7 edges }{7}
 \contentsline {subsection}{\numberline {g}a graph with 3 vertices and 5 edges }{7}
 \contentsline {subsection}{\numberline {h}a directed graph with 3 vertices and 5 edges}{8}
 \contentsline {section}{\numberline {4}Given a Graph}{8}
 \contentsline {subsection}{\numberline {a}Is this graph connected?}{8}
-\contentsline {subsection}{\numberline {b}Is this graph complete? Why/Why not?}{8}
-\contentsline {subsection}{\numberline {c}What is the minimum degree of the graph?}{8}
+\contentsline {subsection}{\numberline {b}Is this graph complete? Why/Why not?}{9}
+\contentsline {subsection}{\numberline {c}What is the minimum degree of the graph?}{9}
 \contentsline {subsection}{\numberline {d}What is the maximum degree of the graph?}{9}
 \contentsline {subsection}{\numberline {e}What is the largest clique in the graph?}{9}
 \contentsline {subsection}{\numberline {f}Is the graph planar? Why/Why not?}{9}

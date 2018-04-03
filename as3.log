@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  3 APR 2018 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  3 APR 2018 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -463,20 +463,23 @@ Missing character: There is no š in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no š in font cmr12!
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 [6] [7]
 File: graph.eps Graphic file (type eps)
  <graph.eps>
-Overfull \hbox (49.1387pt too wide) in paragraph at lines 229--230
+Overfull \hbox (49.1387pt too wide) in paragraph at lines 233--234
  [] 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
@@ -490,4 +493,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,6n,61p,441b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on as3.dvi (9 pages, 54636 bytes).
+Output written on as3.dvi (9 pages, 55424 bytes).
