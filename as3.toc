@@ -15,10 +15,10 @@
 \contentsline {subsection}{\numberline {d}a directed graph with 5 vertices and 3 edges?}{7}
 \contentsline {subsection}{\numberline {e}a disconnected graph (a graph that is not connected) with 5 ices and 7 edges}{7}
 \contentsline {subsection}{\numberline {f}a disconnected, directed graph with 5 vertices and 7 edges }{7}
-\contentsline {subsection}{\numberline {g}a graph with 3 vertices and 5 edges }{8}
+\contentsline {subsection}{\numberline {g}a graph with 3 vertices and 5 edges }{7}
 \contentsline {subsection}{\numberline {h}a directed graph with 3 vertices and 5 edges}{8}
 \contentsline {section}{\numberline {4}Given a Graph}{8}
-\contentsline {subsection}{\numberline {a}Is this graph connected?}{9}
+\contentsline {subsection}{\numberline {a}Is this graph connected?}{8}
 \contentsline {subsection}{\numberline {b}Is this graph complete? Why/Why not?}{9}
 \contentsline {subsection}{\numberline {c}What is the minimum degree of the graph?}{9}
 \contentsline {subsection}{\numberline {d}What is the maximum degree of the graph?}{9}

@@ -89,12 +89,9 @@ Assuming:
 Show:
 \[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
 Proof:
-\[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
-\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)!}{r!(n-r+1)!}xx^{(n-r)}a^r\]
-\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)(n)!}{r!(n-r+1)(n-r)!}xx^{(n-r)}a^r\]
-\[(x+a)^{n+1} = (n+1)x \sum_{r=0}^{n+1} \frac{(n)!}{r!(n-r+1)(n-r)!}x^{(n-r)}a^r\]
-\[(x+a)^{n+1} = (n+1)x \sum_{r=0}^{n+1} \frac{1}{n-r+1} \sum_{r=0}^{n+1} \frac{(n)!}{r!(n-r)!}x^{(n-r)}a^r\]
-\[(x+a)^{n+1} = (\sum_{r=0}^{n} C((n+1)‚ r)x^{(n+1)-r}a^r) \]
+\[(x+a)^{n+1} =  (x+a)^N (x+a)\]
+\[(x+a)^{n+1} =  \sum_{r=0}^n C(n‚ r)x^{n-r}a^r (x+a)\]
+\[(x+a)^{n+1} =  x\sum_{r=0}^n C(n‚ r)x^{n-r}a^r + a\sum_{r=0}^n C(n‚ r)x^{n-r}a^r\] 
 
 \section{Graph Questions}
 
@@ -198,7 +195,6 @@ So we can completely ignore the 5th node
       \draw[->] (\from) -- (\to);
   \end{tikzpicture}
 \end{center}
-
 \subsection{a graph with 3 vertices and 5 edges }
 No, since $K_{3}$ has 3 edges and the maximum amount of edges for 3 vertices
 is represented by 
