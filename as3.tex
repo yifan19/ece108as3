@@ -82,8 +82,16 @@ n = 1 case:\\
 \[(x+a) = \binom{1}{0} x^{1} + \binom{1}{1}  a^1\]
 \[(x+a) = x+a \blacksquare \]
 \subsection{N+1 Case}
-\[(x+a)^{n+1} = \sum_{r=0}^{N+1} C(n‚ r)x^{n-r}a^r\]
-\[ = (\sum_{r=0}^{N} C(n‚ r)x^{n-r}a^r )+ \binom{1}{1}\]
+Assuming:
+\[
+(x+a)^n = \sum_{r=0}^n C(n‚ r)x^{n-r}a^r
+\]
+Show:
+\[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
+Proof:
+\[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
+\[(x+a)^{n+1} = (\sum_{r=0}^{n} C((n+1)‚ r)x^{(n+1)-r}a^r) \]
+
 \section{Graph Questions}
 
 \subsection{a graph with 5 vertices and 3 edges}
