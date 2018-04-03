@@ -52,14 +52,14 @@ Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s. T
 How many times will you roll a 1 twice in succession?  For the
 purpose of this calculation, the sequence ...11.... counts as once,
 but so does ...111....  The sequence ...1111... counts as twice.  What
-is the probability of this occurring?
-
+is the probability of this occurring?\\
+using the complementary: we need to calculate the amount of times you get 11
 \subsection{Rolling 1s}
 How many times will you roll a 1 twice in succession?  For the
 How many times will you roll a 1 $k$-times in succession?  As with
 the previous case, when a 1 is counted as part of a $k$-sequence, it
 is not counted as part of a subsequent $k$-sequence.  What
-is the probability of this occurring?
+is the probability of this occurring?\\
 
 \subsection{Communication}
 How many times will you roll a 1 twice in succession?  For the
@@ -90,9 +90,10 @@ Show:
 \[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
 Proof:
 \[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
-\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)!}{r!(r-n+1)!}xx^{(n-r)}a^r\]
-\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)(n)!}{r!(r-n+1)(r-n)!}xx^{(n-r)}a^r\]
-\[(x+a)^{n+1} = (n+1)x \sum_{r=0}^{n+1} \frac{(n)!}{r!(r-n+1)(r-n)!}x^{(n-r)}a^r\]
+\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)!}{r!(n-r+1)!}xx^{(n-r)}a^r\]
+\[(x+a)^{n+1} = \sum_{r=0}^{n+1} \frac{(n+1)(n)!}{r!(n-r+1)(n-r)!}xx^{(n-r)}a^r\]
+\[(x+a)^{n+1} = (n+1)x \sum_{r=0}^{n+1} \frac{(n)!}{r!(n-r+1)(n-r)!}x^{(n-r)}a^r\]
+\[(x+a)^{n+1} = (n+1)x \sum_{r=0}^{n+1} \frac{1}{n-r+1} \sum_{r=0}^{n+1} \frac{(n)!}{r!(n-r)!}x^{(n-r)}a^r\]
 \[(x+a)^{n+1} = (\sum_{r=0}^{n} C((n+1)‚ r)x^{(n+1)-r}a^r) \]
 
 \section{Graph Questions}
