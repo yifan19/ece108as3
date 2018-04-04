@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,30 +459,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no š in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no š in font cmr12!
 [6]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
@@ -513,6 +507,13 @@ Missing character: There is no š in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no š in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no š in font cmr12!
+[7]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
@@ -520,7 +521,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
 
-Overfull \hbox (1.30345pt too wide) detected at line 141
+Overfull \hbox (1.30345pt too wide) detected at line 147
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 nr\OT1
@@ -533,44 +534,44 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
 
-Overfull \hbox (19.2045pt too wide) detected at line 143
-\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
-r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
-\OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
- []
-
-[7]
-Overfull \hbox (90.947pt too wide) detected at line 144
+Overfull \hbox (19.2045pt too wide) detected at line 150
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
  []
 
 
-Overfull \hbox (1.138pt too wide) detected at line 145
+Overfull \hbox (90.947pt too wide) detected at line 152
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
+r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
+\OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
+ []
+
+
+Overfull \hbox (1.138pt too wide) detected at line 153
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + []([])\OML/cmm/m/it/12 x[]a[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
 
-[8] [9] [10]
+[10] [11]
 File: graph.eps Graphic file (type eps)
  <graph.eps>
-Overfull \hbox (49.1387pt too wide) in paragraph at lines 287--288
+Overfull \hbox (49.1387pt too wide) in paragraph at lines 297--298
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--307
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 315--317
 
  []
 
-[11] [12] (./as3.aux) ) 
+[13] (./as3.aux) ) 
 Here is how much of TeX's memory you used:
  11364 strings out of 493030
  227871 string characters out of 6136261
@@ -580,4 +581,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,6n,61p,441b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on as3.dvi (12 pages, 63768 bytes).
+Output written on as3.dvi (13 pages, 64564 bytes).
