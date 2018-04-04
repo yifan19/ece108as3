@@ -51,17 +51,33 @@ let's say\\
 $A \& B \& C$ with all equal possibilities of showing up (1/3)\\
 Then we can say we are only throwing a 3 sided dice, therefore the total amount of possibilities while throwing is\\
 \[3^n\]
-using the analogy of undistinguishable $A$s and $ B\& C$s
-our equation for $ \|A\|= \|B\|+\|C\|$
-is \\
-  \[ \frac{n!}{\frac{n}{3}! * \frac{2n}{3}!}\]
-the total probability is then:\\
-  \[ \frac {\frac{n!}{\frac{n}{3}! * \frac{2n}{3}!}} {3^{n}}\]
+ok for 4 four throws:\\
+we could have 2As and 2Bs\\
+or 2As and 1B and 1C\\
+or 2As and 2Cs\\
+we can use the fact that the number are indisguishable...
+and we get 
+  \[ \frac{4!}{2!2!} + \frac{4!}{2!} + \frac{4!}{2!2!} \]
+  in the first term 2As and 2Bs are indisguishable\\
+  in the second term 2As are indisguishable\\
+  in the second term 2As and 3Bs are indisguishable\\
+  simplify....
+  \[ 2^2 \binom{4}{2} \]
+  after writing out it for n = 6
+  \[ 2^3 \binom{6}{3} \]
+  and for n = 8
+  \[ 2^4 \binom{8}{4} \]
+  Our final generalized form is:
+  \[ 2^{\frac{n}{2}} \binom{n}{\frac{n}{2}} \]
+  Our probability is 
+  \[ \frac {2^{\frac{n}{2}} \binom{n}{\frac{n}{2}}}{3^n} \]
 \subsection{DicerollingA,B,C Part2}
 How many times will the sum of the number of 1's and 2's equal the
 sum of the number of 3's and 4's and equal the sum of the number of
 5's and 6's?  What is the probability of this occurring?\\
-Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s. Therefore,
+Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s.\\
+Even better there is no choice this time, we need the As to equal Bs to equal Cs and the amount of A/B/C = n/3. Never varying\\
+Therefore,
   \[\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}\]
   with the total probability at :\\
   \[ \frac {\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}} {3^{n}}\]
