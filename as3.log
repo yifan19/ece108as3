@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  3 APR 2018 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  3 APR 2018 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,14 +416,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./as3.toc [1
-
-])
+) (./as3.toc)
 \tf@toc=\write4
 \openout4 = `as3.toc'.
 
+ [1
 
-[2]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
@@ -438,7 +437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 
  []
 
-[3]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
@@ -451,7 +450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--63
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
-[4]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
@@ -492,7 +491,7 @@ Missing character: There is no š in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
-[5]
+[4]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
@@ -512,45 +511,52 @@ mm/m/it/12 x[]a[]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no š in font cmr12!
 
-Overfull \hbox (51.31778pt too wide) detected at line 99
+Overfull \hbox (19.2045pt too wide) detected at line 100
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
-\OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 nr\OT1
-/cmr/m/n/12 ) + \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n; r\OT1/cm
-r/m/n/12 ))\OML/cmm/m/it/12 x[]a[] \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 C\OT1/
-cmr/m/n/12 (\OML/cmm/m/it/12 nr \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1)\OML/cmm
-/m/it/12 x[]a[]
+\OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Overfull \hbox (90.947pt too wide) detected at line 101
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
+r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
+\OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
+ []
+
+
+Overfull \hbox (1.138pt too wide) detected at line 102
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
+r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
+\OT1/cmr/m/n/12 + []([])\OML/cmm/m/it/12 x[]a[]
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 [6] [7]
 File: graph.eps Graphic file (type eps)
  <graph.eps>
-Overfull \hbox (49.1387pt too wide) in paragraph at lines 236--237
+Overfull \hbox (49.1387pt too wide) in paragraph at lines 244--245
  [] 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 
  []
 
-[9] [10] (./as3.aux) ) 
+[9] (./as3.aux) ) 
 Here is how much of TeX's memory you used:
- 11364 strings out of 493030
- 227871 string characters out of 6136261
- 267315 words of memory out of 5000000
- 14711 multiletter control sequences out of 15000+600000
- 12403 words of font info for 48 fonts, out of 8000000 for 9000
+ 11363 strings out of 493030
+ 227856 string characters out of 6136261
+ 267248 words of memory out of 5000000
+ 14710 multiletter control sequences out of 15000+600000
+ 12096 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,61p,441b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on as3.dvi (10 pages, 57052 bytes).
+Output written on as3.dvi (9 pages, 52744 bytes).

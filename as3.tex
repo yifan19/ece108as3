@@ -96,7 +96,15 @@ Proof:
 \[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}\sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \sum_{r=0}^n C(n‚ r)x^{n-r}a^{r+1}\] 
 \[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+ \sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \binom{n}{n}a^{n+1}+\sum_{r=0}^{n-1} C(n‚ r)x^{n-r}a^{r+1}\] 
 \[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \sum_{r=1}^{n} C(n‚ r-1)x^{n-r+1}a^{r}\] 
-\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (C(n‚ r)+C(n,r-1) )x^{n-r+1}a^r + ] 
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n ((C(n‚ r)+C(n,r-1) )x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (\frac{n!}{r!(n-r)!}+\frac{n!}{(r-1)!(n-r+1)!} )x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (\frac{n!}{r(r-1)!(n-r)!}+\frac{n!}{(r-1)!(n-r+1)(n-r)!} )x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (\frac{n!(r+n-r+1)}{r(r-1)!(n-r)!(n-r+1)})x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (\frac{n!(n+1)}{r!(n-r+1)!})x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n \binom{n+1}{r}x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \binom{n+1}{0} x^{n+1}+\binom{n+1}{n}a^{n+1}+ \sum_{r=1}^n \binom{n+1}{r}x^{n-r+1}a^r\]
+\[(x+a)^{n+1} =  \sum_{r=0}^{n+1} \binom{n+1}{r}x^{n+1-r}a^r\blacksquare\]
+
 
 
 \section{Graph Questions}
