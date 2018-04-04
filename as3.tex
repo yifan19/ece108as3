@@ -14,16 +14,32 @@
 \renewcommand\thesubsection{\alph{subsection}}
 \section{Rolling Dice}
 \subsection{Dicerolling1,2,3,4,5,6}
-How many times will the sequence 1,2,3,4,5,6 occur?  What is the
-probability of this occurring?\\
+How many times will you always get all six numbers at least one, assuming $n > 6A$ ?
+What is the probability of this occurring?\\
 \bigskip\\
-well if $n \leq 6$, there is 0 chance of any sequence occuring\\
-if $n = 6$, there is 1 occurence which means $\frac{1}{6^{6}}$ chance\\
-if $n \geq 6$,there are 
-  \[(n-5)!*6^{n-6}\text{occurences}\]
-  which leads to a probability of occurence to
-  \[\frac{(n-5)!*6^{n-6}}{6^{n}}\]
-
+well let's see the probability of the complement happening, so how many times will I not get all six numbers:\\
+Using the inclusion-exclusion principle:\\
+  \begin{enumerate}
+    \item No 1 :$5^n$
+    \item No 2 :$5^n$
+    \item No 3 :$5^n$
+    \item No 4 :$5^n$
+    \item No 5 :$5^n$
+    \item No 6 :$5^n$
+  \end{enumerate}
+  the first set with no 1 seems to have $4^n$ in common with all 5 others\\
+  the second set with no 2 seems also to have the same thing\\
+  we can see a pattern here... \\
+  we remove $6C2(4^n) = 15(4^n)$ to remove all the duplications\\
+  then we add $6C3(3^n) = 20 (3^n)$ because we removed too much\\
+  then we remove $6C4(2^n) = 15 (2^n)$\\
+  then we add $6C5(1^n) = 6$\\
+  then we remove $6C6(0) =0$\\
+  \bigskip\\
+  so we get total occurence of having all 6 numbers is:\\
+  \[(6^n) - (6(5^n) -15(4^n) + 20(3^n)- 15(2^n) + 6) \]
+  the total probability is then:
+  \[\frac{(6^n) - (6(5^n) -15(4^n) + 20(3^n)- 15(2^n) + 6)}{6^n} \]
 \subsection{DicerollingA,B,C}
 How many times will the sum of the number of 1's and 2's equal the
 sum of the number of 3's, 4's, 5's and 6's?  What is the probability
@@ -49,28 +65,55 @@ Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s. T
   with the total probability at :\\
   \[ \frac {\frac{n!}{\frac{n}{3}*!\frac{n}{3}!*\frac{n}{3}!}} {3^{n}}\]
 \subsection{Rolling 1s}
-How many times will you roll a 1 twice in succession?  For the
-purpose of this calculation, the sequence ...11.... counts as once,
-but so does ...111....  The sequence ...1111... counts as twice.  What
-is the probability of this occurring?\\
-using the complementary: we need to calculate the amount of times you get 11
-\subsection{Rolling 1s}
-How many times will you roll a 1 twice in succession?  For the
-How many times will you roll a 1 $k$-times in succession?  As with
-the previous case, when a 1 is counted as part of a $k$-sequence, it
-is not counted as part of a subsequent $k$-sequence.  What
-is the probability of this occurring?\\
+In how many ways will you roll a "1" at least wtice among all $n$ dice roll s, assuming n>2? What is the probability of this occurring?\\
+\bigskip\\
+Use the exclusion and inclusion principle
+\begin{enumerate}
+  \item{size of the set where there is absolutely zero 1: $5^n$}
+  \item{size of the set where there is only one 1: $n(5^{n-1})$}
+\end{enumerate}
+since there is no overlapping,\\
+the total occurence is:
+\[6^n - 5^n - n(5^{n-1})\]
+the probability is then 
+\[\frac{6^n - 5^n - n(5^{n-1})}{6^n}\]
+\subsection{Rolling 1s generalized...}
+In how many ways will you roll a "1" at least $k$ times, assuming $n > k$? 
+What is the probability of this occurring?\\
+Use the exclusion and inclusion principle
+\begin{enumerate}
+  \item{size of the set where there is absolutely zero 1: $\binom{n}{0}5^n$}
+  \item{size of the set where there is only one 1: $\binom{n}{1}(5^{n-1})$}
+  \item{size of the set where there are only 2 1: $\binom{n}{2}(5^{n-2})$} 
+  \item{size of the set where there are only k 1: $\binom{n}{k}(5^{n-k})$} 
+\end{enumerate}
+As wee see, there is no overlap between the sets and we can just use sigma nnotation to give the answer.
 
-\subsection{Communication}
-How many times will you roll a 1 twice in succession?  For the
+\[ 6^n - \sum ^k _{i=0} \binom{n}{i}5^{n-i} \]
+Probabilities: \\
+\[\frac{ 6^n - \sum ^k _{i=0} \binom{n}{i}5^{n-i}} {6^n}\]
+\subsection{Communication, actually even more generalization}
 You have a communications system that transmits bundles of data
 from a source to a destination.  Most bundles are received correctly.
 However, there is a random chance of the data in a bundle being in
 error.  Roughly every $E^{th}$ bundle is in error.  If you transmit
 $n$ bundles, what is the probability of two bundles in sequence being
 in error?  what is the probability of $k$ bundles in sequence being in
-error?
+error?\\
+\bigskip\\
+Let's say the bundle is like a E-sided dice, if we roll a 1, we get error
+\begin{enumerate}
+  \item{size of the set where there is absolutely no error: $\binom{n}{0}(E-1)^n$}
+  \item{size of the set where there is only one 1: $\binom{n}{1}((E-1)^{n-1})$}
+  \item{size of the set where there are only 2 1: $\binom{n}{2}((E-1)^{n-2})$} 
+  \item{size of the set where there are only k 1: $\binom{n}{k}((E-1)^{n-k})$} 
+\end{enumerate}
 
+Probabilities 2 errors: \\
+\[\frac{ E^n - \sum ^2 _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
+\[\implies \frac{ E^n - (E-1)^{n} - n(E-1)^{n-1} }{E^n}\]
+Probabilities k error: \\
+\[\frac{ E^n - \sum ^k _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
 \section{Binomial Theorem}
 Prove (using induction) the binomial theorem:
 \[
