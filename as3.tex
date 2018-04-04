@@ -38,7 +38,7 @@ Using the inclusion-exclusion principle:\\
   \bigskip\\
   so we get total occurence of having all 6 numbers is:\\
   \[(6^n) - (6(5^n) -15(4^n) + 20(3^n)- 15(2^n) + 6) \]
-  the total probability is then:
+  the total probability is then:\\
   \[\frac{(6^n) - (6(5^n) -15(4^n) + 20(3^n)- 15(2^n) + 6)}{6^n} \]
 \subsection{DicerollingA,B,C}
 How many times will the sum of the number of 1's and 2's equal the
@@ -55,15 +55,16 @@ using the analogy of undistinguishable $A$s and $ B\& C$s
 our equation for $ \|A\|= \|B\|+\|C\|$
 is \\
   \[ \frac{n!}{\frac{n}{3}! * \frac{2n}{3}!}\]
+the total probability is then:\\
   \[ \frac {\frac{n!}{\frac{n}{3}! * \frac{2n}{3}!}} {3^{n}}\]
 \subsection{DicerollingA,B,C Part2}
 How many times will the sum of the number of 1's and 2's equal the
 sum of the number of 3's and 4's and equal the sum of the number of
 5's and 6's?  What is the probability of this occurring?\\
 Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s. Therefore,
-  \[\frac{n!}{\frac{n}{3}*!\frac{n}{3}!*\frac{n}{3}!}\]
+  \[\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}\]
   with the total probability at :\\
-  \[ \frac {\frac{n!}{\frac{n}{3}*!\frac{n}{3}!*\frac{n}{3}!}} {3^{n}}\]
+  \[ \frac {\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}} {3^{n}}\]
 \subsection{Rolling 1s}
 In how many ways will you roll a "1" at least wtice among all $n$ dice roll s, assuming n>2? What is the probability of this occurring?\\
 \bigskip\\
@@ -87,7 +88,7 @@ Use the exclusion and inclusion principle
   \item{size of the set where there are only 2 1: $\binom{n}{2}(5^{n-2})$} 
   \item{size of the set where there are only k 1: $\binom{n}{k}(5^{n-k})$} 
 \end{enumerate}
-As wee see, there is no overlap between the sets and we can just use sigma nnotation to give the answer.
+As we see, there is no overlap between the sets and we can just use sigma nnotation to give the answer.
 
 \[ 6^n - \sum ^k _{i=0} \binom{n}{i}5^{n-i} \]
 Probabilities: \\

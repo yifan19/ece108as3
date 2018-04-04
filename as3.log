@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,6 +434,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--40
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
@@ -449,22 +454,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
@@ -473,7 +483,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
@@ -521,7 +531,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
 
-Overfull \hbox (1.30345pt too wide) detected at line 147
+Overfull \hbox (1.30345pt too wide) detected at line 148
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 nr\OT1
@@ -534,40 +544,40 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no š in font cmr12!
 
-Overfull \hbox (19.2045pt too wide) detected at line 150
+Overfull \hbox (19.2045pt too wide) detected at line 151
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
  []
 
 
-Overfull \hbox (90.947pt too wide) detected at line 152
+Overfull \hbox (90.947pt too wide) detected at line 153
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + []([] + [])\OML/cmm/m/it/12 x[]a[]
  []
 
 
-Overfull \hbox (1.138pt too wide) detected at line 153
+Overfull \hbox (1.138pt too wide) detected at line 154
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OT1/cm
 r/m/n/12 )[] = []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 a[] 
 \OT1/cmr/m/n/12 + []([])\OML/cmm/m/it/12 x[]a[]
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 [10] [11]
 File: graph.eps Graphic file (type eps)
  <graph.eps>
-Overfull \hbox (49.1387pt too wide) in paragraph at lines 297--298
+Overfull \hbox (49.1387pt too wide) in paragraph at lines 298--299
  [] 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
 
  []
 
@@ -581,4 +591,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,6n,61p,441b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on as3.dvi (13 pages, 64564 bytes).
+Output written on as3.dvi (13 pages, 64596 bytes).
