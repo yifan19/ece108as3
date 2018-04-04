@@ -89,9 +89,15 @@ Assuming:
 Show:
 \[(x+a)^{n+1} = \sum_{r=0}^{n+1} C((n+1)‚ r)x^{(n+1)-r}a^r\]
 Proof:
-\[(x+a)^{n+1} =  (x+a)^N (x+a)\]
+\[(x+a)^{n+1} =  (x+a)^n (x+a)\]
 \[(x+a)^{n+1} =  \sum_{r=0}^n C(n‚ r)x^{n-r}a^r (x+a)\]
-\[(x+a)^{n+1} =  x\sum_{r=0}^n C(n‚ r)x^{n-r}a^r + a\sum_{r=0}^n C(n‚ r)x^{n-r}a^r\] 
+\[(x+a)^{n+1} =  x\sum_{r=0}^n C(n‚ r)x^{n-r}a^r + a\sum_{r=0}^n C(n‚ r)x^{n-r}a^{r}\] 
+\[(x+a)^{n+1} =  \sum_{r=0}^n C(n‚ r)x^{n-r+1}a^r + \sum_{r=0}^n C(n‚ r)x^{n-r}a^{r+1}\] 
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}\sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \sum_{r=0}^n C(n‚ r)x^{n-r}a^{r+1}\] 
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+ \sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \binom{n}{n}a^{n+1}+\sum_{r=0}^{n-1} C(n‚ r)x^{n-r}a^{r+1}\] 
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n C(n‚ r)x^{n-r+1}a^r + \sum_{r=1}^{n} C(n‚ r-1)x^{n-r+1}a^{r}\] 
+\[(x+a)^{n+1} =  \binom{n}{0} x^{n+1}+\binom{n}{n}a^{n+1}+ \sum_{r=1}^n (C(n‚ r)+C(n,r-1) )x^{n-r+1}a^r + ] 
+
 
 \section{Graph Questions}
 
@@ -240,11 +246,13 @@ minimum degree is 2, on node V6
 \subsection{What is the maximum degree of the graph?}
 maximum degree is 7, on node V8
 \subsection{What is the largest clique in the graph?}
+It is a $K_{4}$\\
+Here is one of the 2 K4
 \[K_{4}\] \[V8,V11,V16,V13\]
 
 \subsection{Is the graph planar? Why/Why not?}
-No, there exists a subgraph $K_{4}$ $V8,V11,V16,V13$ inside.\\
-We know that $K_{4}$ is non-planar.\\
+No, there exists a subgraph $K_{3,3}$ $V10,V11,V8,V12,V13,V16$ inside.\\
+We know that $K_{3,3}$ is non-planar.\\
 \subsection{What is the shortest path from V1 to V17? How long is it?}
 
 \[V1\rightarrow V4\rightarrow V8\rightarrow V16\rightarrow V17\]
