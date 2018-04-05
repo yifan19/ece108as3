@@ -69,6 +69,9 @@ and we get
   \[ 2^4 \binom{8}{4} \]
   Our final generalized form is:
   \[ 2^{\frac{n}{2}} \binom{n}{\frac{n}{2}} \]
+  for 6 sided-dice :
+
+  \[ 2^n 2^{\frac{n}{2}} \binom{n}{\frac{n}{2}} \]
   Our probability is 
   \[ \frac {2^{\frac{n}{2}} \binom{n}{\frac{n}{2}}}{3^n} \]
 \subsection{DicerollingA,B,C Part2}
@@ -79,6 +82,8 @@ Same thing as part I, but now $A$s are indisguishable from $B$s and from $C$s.\\
 Even better there is no choice this time, we need the As to equal Bs to equal Cs and the amount of A/B/C = n/3. Never varying\\
 Therefore,
   \[\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}\]
+For 6-sided:
+  \[\frac{2^n * n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}\]
   with the total probability at :\\
   \[ \frac {\frac{n!}{\frac{n}{3}!\frac{n}{3}!\frac{n}{3}!}} {3^{n}}\]
 \subsection{Rolling 1s}
@@ -126,12 +131,12 @@ Let's say the bundle is like a E-sided dice, if we roll a 1, we get error
   \item{...}
   \item{size of the set where there are only k 1: $\binom{n}{k}((E-1)^{n-k})$} 
 \end{enumerate}
-
 Probabilities 2 errors: \\
-\[\frac{ E^n - \sum ^2 _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
-\[\implies \frac{ E^n - (E-1)^{n} - n(E-1)^{n-1} }{E^n}\]
+\[\frac{ E^n - \sum ^1 _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
+\[\implies \frac{ E^n - (E-1)^{n}}{E^n}\]
 Probabilities k error: \\
-\[\frac{ E^n - \sum ^k _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
+\[\frac{ E^n - \sum ^{k-1} _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
+\[\frac{ E^n - \sum ^{k-1} _{i=0} \binom{n}{i}(E-1)^{n-i}} {E^n}\]
 \pagebreak
 \section{Binomial Theorem}
 Prove (using induction) the binomial theorem:
