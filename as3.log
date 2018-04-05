@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.1)  4 APR 2018 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -586,4 +586,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,6n,61p,441b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on as3.dvi (14 pages, 66304 bytes).
+Output written on as3.dvi (14 pages, 66336 bytes).
